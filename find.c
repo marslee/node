@@ -49,11 +49,12 @@ int findfile(char *filename,char *path){
     }
     closedir(dp);
     return 0;
+
 }
 
 int main(int arg,char **argc)
 {
-   	int i=0;
+   	int i=0;i=1;
 int ret;
 //	int resend;
 char *tmppath,*path;
