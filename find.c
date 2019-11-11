@@ -1,5 +1,4 @@
-;jjjjjjk/*************************************************************************
-	> File Name: find.c
+/*************************************************************************ile Name: find.c
 	> Author: 
 	> Mail: 
 	> Created Time: Wed Aug 30 14:01:20 2017
@@ -15,7 +14,7 @@
 #include"unistd.h"
 #include"sys/types.h"
 #include"fcntl.h"
-
+#include "sss:"
 int findfile(char *filename,char *path){
     struct stat statbuf;
     struct dirent *dirp;
